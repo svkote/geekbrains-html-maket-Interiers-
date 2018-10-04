@@ -33,30 +33,53 @@
             padding-left: 98px;
             letter-spacing: -0.14px;
         }
-            .ord {
-                text-decoration: none;
-                margin-left: 98px;
-                margin-top: 29px;
-                font-size: 19px;
-                font-weight: 700;
-                text-transform: uppercase;
-                color: #212121;
-                letter-spacing: 2.4px;
-                line-height: 14px;
-                /* text-align: center; */
+        .ord {
+            text-decoration: none;
+            margin-left: 98px;
+            margin-top: 29px;
+            font-size: 19px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #212121;
+            letter-spacing: 2.4px;
+            line-height: 14px;
+            /* text-align: center; */
+            display: block;
+            width: 212px;
+            height: 44px;
+            box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+            border-radius: 51px;
+            background-color: #ffffff;
+            box-sizing: border-box;
+            padding-top: 15px;
+            padding-left: 30px;
+            &:hover {
+                text-decoration: underline;
+                background: url('../../img/arrow.png') no-repeat 86% 45% #ffffff;
+            }
+        }
+        .nav_slider {
+            margin: 0 auto;
+            width: fit-content;
+            height: 40px;
+            padding-top: 230px;
+            a {
                 display: block;
-                width: 212px;
-                height: 44px;
-                box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
-                border-radius: 51px;
-                background-color: #ffffff;
-                box-sizing: border-box;
-                padding-top: 15px;
-                padding-left: 30px;
+                float: left;
+                margin: 0 8px;
+                border-radius: 30px;
+                height: 30px;
+                width: 30px;
+                background-color: #c7c7c7;
                 &:hover {
-                    text-decoration: underline;
-                    background: url('../../img/arrow.png') no-repeat 86% 45% #ffffff;
+                    margin: 0 3px;
+                    width: 40px;
+                    height: 40px;
+                    background-color: #212121;
+                    transform: translateY(-4px);
                 }
             }
+        }
+
     }
     

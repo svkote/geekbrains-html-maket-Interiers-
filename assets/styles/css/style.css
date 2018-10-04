@@ -478,3 +478,25 @@
   text-decoration: underline;
   background: url('../../img/arrow.png') no-repeat 86% 45% #ffffff;
 }
+.hotdeal .nav_slider {
+  margin: 0 auto;
+  width: fit-content;
+  height: 40px;
+  padding-top: 230px;
+}
+.hotdeal .nav_slider a {
+  display: block;
+  float: left;
+  margin: 0 8px;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  background-color: #c7c7c7;
+}
+.hotdeal .nav_slider a:hover {
+  margin: 0 3px;
+  width: 40px;
+  height: 40px;
+  background-color: #212121;
+  transform: translateY(-4px);
+}
