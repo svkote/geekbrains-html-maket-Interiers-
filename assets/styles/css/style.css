@@ -416,6 +416,11 @@
 .trending_img img {
   padding-right: 27px;
   padding-bottom: 27px;
+  transition: all 0.7s ease;
+}
+.trending_img img:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.7s ease;
 }
 .hotdeal {
   width: 1366px;
@@ -499,4 +504,275 @@
   height: 40px;
   background-color: #212121;
   transform: translateY(-4px);
+}
+.fish {
+  width: 1366px;
+  height: 690px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 120px;
+  padding-left: 98px;
+}
+.fish .block1 {
+  width: 570px;
+  height: 570px;
+  float: left;
+  background: url("../../img/product/product-1-lg.png");
+}
+.fish .block1 h3 {
+  padding-top: 176px;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #1e88e5;
+  letter-spacing: 1.3px;
+  padding-left: 30px;
+}
+.fish .block1 h2 {
+  display: block;
+  color: #212121;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  padding-left: 30px;
+  letter-spacing: -1.1px;
+}
+.fish .block1 p {
+  display: block;
+  color: #6c6c6c;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24.04px;
+  width: 371px;
+  padding-left: 30px;
+  padding-top: 9px;
+  letter-spacing: -0.175px;
+}
+.fish .block1 a {
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #212121;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+  /* text-align: center; */
+  display: block;
+  width: 212px;
+  height: 44px;
+  box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+  border-radius: 51px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.fish .block1 a:hover {
+  text-decoration: underline;
+  background: url('../../img/arrow.png') no-repeat 86% 45% #ffffff;
+}
+.fish .block2 img {
+  margin-left: 28px;
+  margin-bottom: 28px;
+  transition: all 0.7s ease;
+}
+.fish .block2 img:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 0.7s ease;
+}
+.mobile {
+  width: 1366px;
+  height: 516px;
+  font-family: 'Montserrat', sans-serif;
+  background: url("../../img/promo/back-img.png");
+}
+.mobile h3 {
+  padding-top: 121px;
+  padding-left: 98px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6c6c6c;
+  letter-spacing: 1.2px;
+}
+.mobile h2 {
+  width: 457px;
+  padding-top: 2px;
+  padding-left: 98px;
+  color: #212121;
+  font-family: "Montserrat";
+  font-size: 62px;
+  font-weight: 100;
+  line-height: 72px;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+}
+.mobile p {
+  width: 463px;
+  padding-top: 11px;
+  padding-left: 98px;
+  color: #6c6c6c;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  margin-bottom: 32px;
+}
+.mobile .pr {
+  margin-left: 98px;
+  margin-right: 7px;
+}
+.mobile img:hover {
+  background-color: #fff;
+  opacity: 0.6;
+}
+.footer {
+  width: 1268px;
+  height: 268px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 98px;
+  background-color: #f7f7f7;
+  padding-top: 116px;
+}
+.footer li {
+  list-style-type: none;
+}
+.footer h4 {
+  color: #6c6c6c;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+.footer .contact {
+  float: left;
+  width: 221px;
+}
+.footer .contact p {
+  width: 229px;
+  height: 102px;
+  padding-top: 14px;
+  color: #212121;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+.footer .contact p a {
+  letter-spacing: -0.3px;
+  text-decoration: none;
+  color: #212121;
+}
+.footer .useful {
+  float: left;
+  width: 500px;
+  margin-left: 79px;
+}
+.footer .useful .nav1,
+.footer .useful .nav2 {
+  float: left;
+  width: 50%;
+  width: 187px;
+  height: 63px;
+  color: #212121;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  /* Text style for "Architect" */
+  letter-spacing: 0.27px;
+  padding-right: 50px;
+  padding-top: 12px;
+}
+.footer .useful .nav1 a,
+.footer .useful .nav2 a {
+  text-decoration: none;
+  color: #212121;
+}
+.footer .useful .nav1 a:hover,
+.footer .useful .nav2 a:hover {
+  text-decoration: underline;
+}
+.footer .susc {
+  float: left;
+  width: 373px;
+  margin-right: 90px;
+}
+.footer .susc p {
+  padding-top: 14px;
+  color: #212121;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+.footer .susc form {
+  position: relative;
+}
+.footer .susc input {
+  margin-top: 21px;
+  padding: 0 20px;
+  letter-spacing: 0.89px;
+  width: 330px;
+  height: 48px;
+  border: 1px solid #d9dee1;
+  background-color: #fff;
+}
+.footer .susc button {
+  display: inline;
+  background-color: #fff;
+  border: none;
+  position: absolute;
+  bottom: 12px;
+  right: 18px;
+}
+.footer .susc button:hover {
+  cursor: pointer;
+}
+.footer .copy {
+  float: left;
+  width: 382px;
+  margin-top: 60px;
+  height: 9px;
+  color: #6c6c6c;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+}
+.footer .soc_icon {
+  float: left;
+  margin-top: 60px;
+  margin-left: 138px;
+}
+.footer .term {
+  float: left;
+  margin-top: 60px;
+  height: 9px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 0.27px;
+  margin-left: 172px;
+}
+.footer .term a {
+  text-decoration: none;
+  color: #6c6c6c;
+}
+.footer .term a:hover {
+  text-decoration: underline;
 }
