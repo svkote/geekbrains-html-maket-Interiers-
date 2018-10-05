@@ -40,8 +40,7 @@
         letter-spacing: 1.4px;
         &:hover {
             border-bottom: 3px solid black;
-            font-weight: 900;
-            padding: 0 11px;
+            color: black;
         }
     }
 }
@@ -88,8 +87,7 @@
             letter-spacing: 1.4px;
             &:hover {
                 border-bottom: 3px solid black;
-                font-weight: 900;
-                padding: 0 11px;
+                color: black;
             }
         }
     }
@@ -146,6 +144,9 @@
                 text-decoration: underline;
                 background: url('../../img/arrow.png') no-repeat 86% 51% #ffffff;
             }
+            &:active {
+                box-shadow: none;
+            }
         }
     }
     .nav_slider {
@@ -167,6 +168,7 @@
                 height: 40px;
                 background-color: #212121;
                 transform: translateY(-4px);
+                box-shadow: -4px 7px 10px rgba(29, 29, 29, 0.43);
             }
         }
     }
