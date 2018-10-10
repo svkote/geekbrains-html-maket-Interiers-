@@ -17,12 +17,13 @@ a
     text-decoration: none
     color: #212121
 
-.header 
+.header
     font-family: 'Montserrat', sans-serif
     z-index: 9999
     height: 360px
     background-color: #F0F0F0
     padding: 0 98px
+    position: relative
     .header_menu 
         position: relative
         a .logo 
@@ -60,6 +61,7 @@ a
         font-size: 62px
         font-weight: 100
         line-height: 72px
+
 .contact
     display: block
     padding: 0 83px
@@ -229,3 +231,179 @@ a
             color: #6c6c6c
             &:hover 
                 text-decoration: underline
+
+.exclusive 
+    font-family: 'Montserrat', sans-serif
+    height: 683px
+    div 
+        width: 683px
+        height: 683px
+        float: left
+        h3
+            padding-top: 218px
+            display: block
+            font-size: 18px
+            font-weight: 700
+            line-height: 35px
+            text-transform: uppercase
+            color: #1e88e5
+            letter-spacing: 1.3px
+            padding-left: 51px
+        
+        h2
+            display: block
+            color: #212121
+            font-family: Montserrat
+            font-size: 36px
+            font-weight: 700
+            padding-left: 51px
+            letter-spacing: -1.1px
+        
+        p
+            display: block
+            color: #6c6c6c
+            font-family: Montserrat
+            font-size: 14px
+            font-weight: 300
+            line-height: 24.04px
+            width: 384px
+            padding-left: 51px
+            padding-top: 9px
+            letter-spacing: -0.175px
+        
+        a
+            text-decoration: none
+            margin-left: 50px
+            margin-top: 30px
+            font-size: 19px
+            font-weight: 700
+            text-transform: uppercase
+            color: #212121
+            letter-spacing: 2.4px
+            line-height: 14px
+            /* text-align: center; */
+            display: block
+            width: 212px
+            height: 44px
+            box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35)
+            border-radius: 51px
+            background-color: #ffffff
+            box-sizing: border-box
+            padding-top: 15px
+            padding-left: 30px
+            &:hover 
+                text-decoration: underline
+                background: url('../../img/arrow.png') no-repeat 86% 45% #ffffff
+            
+            &:active 
+                box-shadow: none
+            
+        
+    
+    .exclusive_block1 
+        background: url('../../img/promo/promo-img1.png')
+    
+    .exclusive_block2 
+        background: url('../../img/promo/promo-img.png')
+
+.main
+    padding: 71px 78px
+    ul
+        display: inline
+        li a
+            display: inline-block
+            float: left
+            color: #6c6c6c
+            font-family: Montserrat
+            font-size: 18px
+            font-weight: 700
+            text-transform: uppercase
+            letter-spacing: 1.8px
+            padding: 0 20px 19px
+            border-bottom: 1px solid black
+            box-sizing: border-box
+            &:hover
+                color: black
+                border-bottom: 2px solid black
+        .active
+            color: black
+            border-bottom: 2px solid black
+    &_product
+        clear: both
+        padding-top: 50px
+        margin-bottom: 71px
+    &_product a
+        display: inline-block
+        margin: 15px
+        transition: all 0.7s ease
+        &:hover
+            transform: scale(1.1, 1.1)
+            transition: all 0.7s ease
+            box-shadow: -9px 8px 10px rgba(29, 29, 29, 0.43)
+    &_reload
+        text-align: center
+        margin-bottom: 71px
+        a
+            transition: all 0.7s ease
+            display: block
+            width: fit-content
+            margin: 0 auto 
+            width: 70px
+            height: 70px
+            border-radius: 35px
+            &:hover
+                -moz-transform: rotate(360deg)
+                -webkit-transform: rotate(360deg)
+                -o-transform: rotate(360deg)
+                -ms-transform: rotate(360deg)
+                transform: rotate(360deg)
+                transition: all 0.7s ease
+                width: 70px
+                height: 70px
+                border-radius: 35px
+                background-color: #d8f4fe
+            img
+                margin-top: 21px
+
+.header_menu__sticky 
+    display: block
+    height: 60px
+    background-color: #f9f9f9
+    padding: 0 98px
+    position: sticky
+    top: 0
+    font-family: 'Montserrat', sans-serif
+    background-color: #ffffff
+    margin-top: -60px
+    z-index: 999
+    a .logo 
+        padding-top: 23px
+    
+    a .search 
+        display: block
+        float: right
+        margin: 0 69px 0 0
+        padding-top: 23px
+        padding-left: 6px
+.nav-menu2 
+    float: right
+    padding-top: 17px
+    li 
+        list-style-type: none
+        float: left
+    a
+        display: block
+        text-decoration: none
+        color: #8c8c8c
+        font-size: 14px
+        font-weight: 300
+        line-height: 30px
+        text-transform: uppercase
+        padding: 0 12.3px
+        letter-spacing: 1.4px
+        &:hover 
+            border-bottom: 3px solid black
+            color: black
+    &-active
+        border-bottom: 3px solid black
+        color: black
